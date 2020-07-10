@@ -45,7 +45,7 @@ FloatingActionButton fabTAmbah;
         fabTAmbah=findViewById(R.id.fab_tambah);
 
 
-     //   ambilData();
+        ambilData();
         rvData.setAdapter(new AdapterData(MainActivity.this,listdata));
         rvData.setLayoutManager(new LinearLayoutManager(MainActivity.this));
 

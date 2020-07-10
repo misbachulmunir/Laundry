@@ -42,9 +42,9 @@ public class TambahActivity extends AppCompatActivity {
                 if(nama.trim().equals("")){
                     ednama.setError("Nama belum di isi");
                 }else if (alamat.trim().equals("")){
-                    edalamat.setError("Nama belum di isi");
+                    edalamat.setError("Alamat belum di isi");
                 }else if(telepon.trim().equals("")){
-                    edtelepon.setError("Nama belum di isi");
+                    edtelepon.setError("Telepon belum di isi");
                 }else{
                     MasukanData() ;
                 }

@@ -1,5 +1,8 @@
 package com.kubangkangkung.laundry.Model;
 
+import org.parceler.Parcel;
+
+@Parcel
 public class DataModel {
    private int id;
    private String nama,alamat,telepon;

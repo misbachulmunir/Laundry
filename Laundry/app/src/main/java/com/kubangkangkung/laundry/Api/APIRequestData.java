@@ -21,4 +21,23 @@ public interface APIRequestData {
             @Field("alamat")String alamat,
             @Field("telepon")String telepon
     );
+
+    //utuk hapus data methodnya post
+    @FormUrlEncoded
+    @POST("delete.php")
+    Call<ResponseModel>ardHapusData(
+            @Field("id") int id
+
+    );
+
+    //untuk update
+    @FormUrlEncoded
+    @POST("update.php")
+    Call<ResponseModel>ardUpdateData(
+            @Field("id")int id,
+            @Field("nama")String nama,
+            @Field("alamat")String alamat,
+            @Field("telepon")String telepon
+    );
+
 }
